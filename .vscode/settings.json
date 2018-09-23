@@ -1,0 +1,16 @@
+{
+    "C_Cpp.intelliSenseEngineFallback": "Disabled",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "nrf_log.h": "c",
+        "nrf_gpio.h": "c",
+        "typeinfo": "cpp",
+        "ble_fan.h": "c",
+        "type_traits": "c",
+        "ble_srv_common.h": "c",
+        "nrf_assert.h": "c",
+        "boards.h": "c",
+        "ble.h": "c",
+        "timers.h": "c"
+    },
+}

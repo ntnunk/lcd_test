@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+             "name": "Cortex Debug",
+            "type": "cortex-debug",
+            "request": "launch",
+            "armToolchainPath": "/home/noel/Dev/Tools/GNU_Tools_ARM_Embedded/7.3.1_2018q2/bin",
+            "servertype": "jlink",
+            "cwd": "${workspaceRoot}",
+            "executable": "./_build/nrf52832_xxaa.out",
+            "device": "nrf52",
+            "interface": "swd"
+           
+        }
+    ]
+}
